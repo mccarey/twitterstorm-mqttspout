@@ -149,7 +149,7 @@ public class MQTTBolt implements MqttCallback, IRichBolt {
 
 
         public void declareOutputFields(OutputFieldsDeclarer declarer) {
-        	//declarer.declare(new Fields("timestamp", "value", "property", "plug_id","household_id", "house_id"));
+        	//TODO
         }
 
         public Map<String, Object> getComponentConfiguration() {
